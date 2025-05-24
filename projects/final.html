@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music2</title>
+    <style>
+      nav {
+        display: inline-flex;
+        background-color: rgb(6, 6, 84);
+        color: white;
+        font-size: x-large;
+        height: 20vh;
+        margin: -8px;
+        width: 100vw;
+        position: fixed;
+        padding: 10px;
+      }
+      nav ul li {
+        display: inline-flex;
+        padding: 0px;
+        margin: 10px;
+      }
+      nav button {
+        width: 10vw;
+        height: 10vh;
+        margin: 20px;
+        background-color: orangered;
+        color: aliceblue;
+      }
+
+      nav img {
+        width: 20vw;
+        height: 10vh;
+        margin: 0px;
+      }
+
+      .page1 {
+        display: flex;
+        background-color: rgb(6, 6, 84);
+        margin-left: -8px;
+        width: 100vw;
+      }
+
+      .image1 img {
+        width: 40vw;
+        height: 60vh;
+        margin: 60px;
+        padding: 100px;
+      }
+      .image1 p {
+        padding: 50px;
+        color: white;
+        font-size: large;
+      }
+      .content1 {
+        color: white;
+        padding: 60px;
+        margin: 60px;
+        width: 30vw;
+      }
+      .content1 h1 {
+        font-size: 55px;
+      }
+      .content1 p {
+        font-size: 20px;
+      }
+      .content1 button {
+        background-color: orangered;
+        color: white;
+        width: 10vw;
+        height: 7vh;
+      }
+      .page2 {
+        height: 300px;
+        padding: 100px;
+        text-align: center;
+      }
+      .heading2 {
+        color: black;
+        font-size: 50px;
+        padding-bottom: 50px;
+      }
+
+      .content2 {
+        display: flex;
+        margin-left: 20px;
+      }
+      .b1,
+      .b2,
+      .b3 {
+        text-align: center;
+        padding-right: 30px;
+      }
+      .b1,
+      .b2,
+      .b3,
+      p {
+        font-size: large;
+      }
+      .page2 button {
+        width: 20vw;
+        height: 30px;
+      }
+      .page3 {
+        background-color: #aaa2a23b;
+        text-align: center;
+        padding: 90px;
+        height: 400px;
+      }
+      .heading3 {
+        font-size: 40px;
+      }
+      .page3,
+      p {
+        font-size: large;
+      }
+      .page3,
+      img {
+        padding-top: 60px;
+        width: 90vw;
+        height: 40vw;
+      }
+      .page4 {
+        display: flex;
+        padding: 30px;
+      }
+      img {
+        width: 50vw;
+        height: 500px;
+        padding: 30px;
+      }
+      .content4 {
+        margin: 40px;
+      }
+      .content4,
+      header {
+        font-size: 40px;
+        color: black;
+      }
+      .content4 p {
+        color: #66626282;
+        padding-top: 30px;
+      }
+      .content4 h6 {
+        color: red;
+      }
+      .content4 h6 a {
+        color: red;
+      }
+      .line1,
+      .line2 {
+        display: flex;
+      }
+      .line1 img {
+        width: 5vw;
+        height: 5vh;
+      }
+      .line2 img {
+        width: 5vw;
+        height: 5vh;
+      }
+      .page5 {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        background-color: #aaa2a23b;
+      }
+      .page5,
+      heading {
+        font-size: 30px;
+        padding: 60px;
+        margin: 0px;
+      }
+      .page5 p {
+        color: #5c5555dd;
+        padding: 20px;
+        font-size: 25px;
+      }
+      .page5 button {
+        padding: 10px;
+        width: 150px;
+        border: solid black 3px;
+      }
+      .page5 .info {
+        font-size: 15px;
+      }
+      .page5 a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://images.seeklogo.com/logo-png/50/1/bandzoogle-logo-png_seeklogo-501584.png"
+      />
+      <ul>
+        <li>Features</li>
+        <li>Examples</li>
+        <li>Pricing</li>
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>Help</li>
+      </ul>
+      <button>Try it Free</button>
+      <button>Sign In</button>
+    </nav>
+
+    <div class="page1">
+      <div class="image1">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/wolf-and-moon@2x-24d806d69604a63785331bcc33ab26d26289e825675b61ba8feefa751ac9fd5e.webp"
+          alt=""
+        />
+        <p>Artist in photo: Wolf & Moon // member since 2020</p>
+      </div>
+      <div class="content1">
+        <h1>
+          Build a stunning <br />
+          band website <br />
+          and store in <br />
+          minutes
+        </h1>
+        <p>
+          Bandzoogle has everything you need to <br />
+          promote and sell your music to fans online.
+        </p>
+        <button>Get Started</button>
+        <p>Free 30 day trial, no credit card needed.</p>
+      </div>
+    </div>
+    <div class="page2">
+      <div class="heading2">
+        The all-in-one <b> website builder </b> for musicians
+      </div>
+      <div class="content2">
+        <div class="b1">
+          <h1>Build a band website</h1>
+          <p>
+            Choose a stunning template and make it as unique as your music with
+            easy custom design tools.
+          </p>
+        </div>
+        <div class="b2">
+          <h1>Sell directly to fans</h1>
+          <p>
+            Start selling your music, merch, tickets, and more—all right from
+            your website, commission-free.
+          </p>
+        </div>
+        <div class="b3">
+          <h1>Promote your music</h1>
+          <p>
+            Build your own audiences and grow your following with direct-to-fan
+            marketing tools.
+          </p>
+        </div>
+      </div>
+      <br /><br />
+      <button>GET STARTED</button>
+    </div>
+    <div class="page3">
+      <div class="heading3">Website <b>templates</b> for your music style</div>
+      <p>
+        All Bandzoogle website plans include dozens of templates made for every
+        kind of musician and <br />
+        music professional. Our modern, responsive themes look great on any
+        device.
+      </p>
+      <img
+        src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/templates@2x-2d43de8e74caa7c9acb7bec3514b35ecc21f76ab9c63009c316aa7b9cbaca9e5.png"
+      />
+    </div>
+    <div class="page4">
+      <div class="image4">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/caveboy-mockup@2x-facc113b0b5d1463e3c7b5a7cfb021db65cf60a0ebcf2af230b1e95e2c49b4e4.webp"
+        />
+      </div>
+      <div class="content4">
+        <div class="heading">
+          Customize your website <br />
+          <b> in minutes</b>
+        </div>
+        <p>
+          Set your creativity free with easy design tools <br />
+          that let you make your website as <br />
+          unique as your music. Choose fonts, colors, and layouts <br />for any
+          template with just a few clicks.
+        </p>
+        <h6><a href="#">Learn about design tools</a></h6>
+        <p>Artist in photo: Caveboy // member since 2015</p>
+      </div>
+    </div>
+    <div class="page5">
+      <div class="heading">
+        All the features you need to build an
+        <b>effective band <br />website</b>
+      </div>
+      <p>
+        Bandzoogle websites don't just look good—they're also packed with
+        built-in features made for musicians
+      </p>
+      <div class="line1">
+        <div class="c1">
+          <img src="" alt="" />
+          <h4>Free domain name</h4>
+          <p>
+            Choose a custom <a href="#">.com address </a> for your band website,
+            free for as long as you're a member.
+          </p>
+        </div>
+        <div class="c2">
+          <img src="" alt="" />
+          <h4>Website hosting</h4>
+          <p>
+            Get a fast and reliable website with unlimited
+            <a href="#">best-in-class hosting</a>
+            for musicians.
+          </p>
+        </div>
+        <div class="c3">
+          <img src="" />
+          <h4>SEO for musicians</h4>
+          <p>
+            Help fans find your music using built-in website
+            <a href=""> search engine optimization</a>
+            features.
+          </p>
+        </div>
+      </div>
+      <div class="line2">
+        <div class="c4">
+          <img src="" alt="" />
+          <h4>Fan data</h4>
+          <p>
+            Check integrated
+            <a href=""> analytics and reports</a>
+            to see who your fans are, where they come from, and what they buy.
+          </p>
+        </div>
+        <div class="c5">
+          <img src="" alt="" />
+          <h4>Music players</h4>
+          <p>
+            Upload your music so that fans can listen to your albums and singles
+            directly on your website.
+          </p>
+        </div>
+        <div class="c6">
+          <img src="" alt="" />
+          <h4>Tour calendar</h4>
+          <p>
+            Highlight a tour calendar on your website with detailed event info,
+            ticket sales, and sharing links for fans.
+          </p>
+        </div>
+      </div>
+      <button>Get Started</button>
+      <p class="info">
+        *Some features may be available only to members of the Pro or Standard
+        plan
+      </p>
+    </div>
+    <style>
+      .page6 {
+        display: flex;
+        padding: 60px;
+      }
+      .content6 {
+        text-align: center;
+        padding: 140px;
+        align-content: center;
+      }
+      .content6,
+      heading {
+        font-size: 30px;
+
+        width: 15vw;
+      }
+      .content6,
+      img {
+        padding: 50px;
+        width: 40vw;
+      }
+      .content6 p {
+        color: #5c5555dd;
+        font-size: large;
+        width: 15vw;
+        padding-left: 150px;
+      }
+      .content6 a {
+        color: red;
+      }
+    </style>
+    <div class="page6">
+      <div class="content6">
+        <heading
+          ><b>Sell</b> music and merch <br />
+          commission-free</heading
+        >
+        <p>
+          Add a store to your website in just two clicks and start selling your
+          music, file downloads, show tickets, and band merch. Best of all, we
+          don't charge any commission on sales.
+        </p>
+        <h6><a href="#">Learn about selling tools</a></h6>
+      </div>
+      <div class="image">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/selling-tools@2x-24b98e844cc2bdfb1f1f05382ffaf9cc54f688859176520ba5170a6b9c1deeb3.jpg"
+        />
+      </div>
+    </div>
+    <style>
+      .page7 {
+        display: flex;
+      }
+
+      .content7 {
+        width: 20vw;
+        padding: 10vw;
+      }
+      .content7 a {
+        color: red;
+      }
+      .content7 p {
+        color: #5c5555dd;
+      }
+      .content7,
+      img {
+        height: 80vh;
+      }
+    </style>
+    <div class="page7">
+      <div class="image7">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/promotional-tools@2x-55d0cf1883adca3ea4230b2eec4a671cd5c44344a7c9ec901a20cdb2ccd00ffc.jpg"
+          alt=""
+        />
+      </div>
+      <div class="content7">
+        <h1>Promote your music online</h1>
+        <p>
+          Make your Bandzoogle website a hub for your band online with tools to
+          build a following, engage fans, and showcase your music.
+        </p>
+        <p><a href="#">Learn about promo tools</a></p>
+      </div>
+    </div>
+    <style>
+      .page8 {
+        display: flex;
+        padding: 60px;
+      }
+      .content8 {
+        text-align: center;
+        padding: 140px;
+        align-content: center;
+      }
+      .content8,
+      heading {
+        font-size: 30px;
+
+        width: 15vw;
+      }
+      .content8,
+      img {
+        padding: 50px;
+        width: 40vw;
+      }
+      .content8 p {
+        color: #5c5555dd;
+        font-size: large;
+        width: 15vw;
+        padding-left: 150px;
+      }
+      .content8 a {
+        color: red;
+      }
+    </style>
+    <div class="page8">
+      <div class="content8">
+        <heading>Create a stunning <b>band EPK</b></heading>
+        <p>
+          Grab the attention of busy industry professionals with a unique
+          electronic press kit that shows your talent is ready for the next
+          stage.
+        </p>
+        <h6><a href="#">Learn about EPK tools</a></h6>
+      </div>
+      <div class="image">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/epk@2x-d9dd01b8098a3afbb82f5db766e45652168a14eeb8bf24b0189cd33392999064.jpg"
+        />
+      </div>
+    </div>
+    <style>
+        .page9{
+            background-color: #aaa2a23b;
+            text-align: center;
+            height: 200px;
+            padding: 80px;
+
+        }
+        .page9 p{
+            color: #5c5555dd;
+            font-size: 20px;
+            
+        }
+        .page9 a{
+            color: red;
+            padding-bottom: 40px;
+        }
+    </style>
+    <div class="page9">
+      <heading>Bandzoogle <b> connects to services </b>you already use</heading>
+      <p>
+        Building and managing your website is even easier with integrations that
+        help you promote and  <br>sell your music online.
+      </p>
+      <p><a href="#">Learn about integrations</a></p>
+    </div>
+    <div class="page10">
+      <div class="image10">
+        <img
+          src="https://assets-app-production-pubnet.bndzgl.com/assets/frontend/bz/landing-pages/home/sections/social-proof@2x-2a90bcd21c631114f24ffecd9e00091822df83eda9a7f6b0c619488b936f5536.jpg"
+        />
+      </div>
+      <div class="content10">
+        <heading>Join over <b> 70,000 musicians</b> who trust Bandzoogle for their home on the web</heading>
+        <p>
+          “Bandzoogle has made website management so easy. I can update my tour dates and blog from the road, and manage everything from newsletters to store purchases.”
+        </p>
+        <p>Kaia Kater // member since 2014
+
+</p>
+        <p><a href="#">Browse websites powered by Bandzoogle</a></p>
+      </div>
+    </div>
+    <style>
+      .page10{
+        display: flex;
+      }
+
+      .content10{
+        width: 20vw;
+        padding: 10vw;
+      }
+      .content10 a {
+        color: red;
+      }
+      .content10 p {
+        color: #5c5555dd;
+      }
+      .content10,
+      img {
+        height: 80vh;
+      }</style>
+      <div class="page11">
+        <div class="content11">
+        <h1>
+            How to <b>build a band website</b>  in 10 easy steps
+        </h1>
+        <p>Here's how to build a website for your music in minutes without any coding.</p>
+        <ol>
+            <li>Sign up for a free Bandzoogle trial.</li>
+            <li>Choose a music website template.
+</li>
+            <li>Customize colors, fonts, and images.
+</li>
+            <li>Add your photos, videos, bio, and other content.
+</li>
+            <li>Upload your music for fans to listen to and buy.</li>
+            
+        </ol>
+        <button>Get Started</button>
+        <p><a href="
+            #">Learn how to build a website</a></p>
+            </div>
+      </div>
+    <style>
+        .content11{
+            /* align-content: center; */
+            margin-left: 35vw;
+            margin-top: 0px;
+           
+            text-align: center;
+           
+        }
+        .content11, button{
+            padding: 15px;
+            width: 15vw;
+        }
+    </style>
+  </body>
+</html>

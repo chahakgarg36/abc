@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+    <style>
+      body {
+        background-color: rgb(1, 1, 65);
+        color: aliceblue;
+        text-align: center;
+        font-size: 40px;
+      }
+      .box1 {
+        border-bottom: solid gray 5px;
+        padding: 10px;
+      }
+      .box2 {
+        border-bottom: solid gray 5px;
+        padding: 10px;
+      }
+      button{
+        width: 100vw;
+        height: 30px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <h3>Please fill out this form with the required information</h3>
+    <div class="box1">
+      <form action="post">
+        <label for="name">Enter your first Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="lastname">Enter your last Name:</label>
+        <input type="text" id="lastname" name="lastname" required />
+        <br />
+        <label for="email">Enter your email:</label>
+        <input type="text" id="email" name="email" required />
+        <br />
+        <label for="name">Create a New Password:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+       <br>
+      </form>
+    </div>
+    <br />
+
+    <div class="box2">
+      <form action="post">
+        <label> <input type="radio" class="23" />Personal Account </label>
+        <br />
+      
+        <label> <input type="radio" class="23" />Buisness Account </label>
+        <br />
+
+        <input type="checkbox" id="123" />
+        <label for="crosscheck" id="123">
+          I accept the <u> terms and conditions</u></label
+        >
+      </form>
+      <br />
+    </div>
+
+    <div class="box3">
+        <br>
+      <form action="post">
+
+        <label for="file">Enter your File:</label>
+        <input type="file" id="file"  required />
+
+
+<br>
+        <label for="age">Input your age(Years):</label>
+        <input type="age" id="age" name="age" min="18" max="100" required />
+<br>
+How did you hear about us?
+<label for="124">
+    <select name="124" id="124">
+        <option value="">(select one)</option>
+        <option value="news">News</option>
+    <option value="youtube">Youtube</option>
+    <option value="forum">Forum</option>
+    <option value="other">Others</option>
+    </select>
+    
+</label>
+
+<br>
+        <label for="bio">Provide a bio:</label>
+        <input type="text" id="bio"   placeholder="I like coding on the beach...."  />
+      </form>
+    </div>
+    <br>
+    <button>Submit</button>
+  </body>
+</html>

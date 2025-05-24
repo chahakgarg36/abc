@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>starting box</title>
+    <style>
+        
+        .box{
+          margin: 10px;
+          padding: 10px;
+        }
+        .capsule{
+            background-color: rgba(205, 40, 67, 0.751);
+            border-radius: 5px;
+            width: 124px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-right:50px ;
+            margin-left:40px ;
+          }
+        .container{
+            background-color: bisque;
+        margin: 45px;
+        padding: 20px;
+        }
+
+      
+        .image{
+            
+          float: left;
+        
+          width: 20vw;
+          height: 60vh;
+      
+
+          }
+          img{
+            height: 35vh;
+          }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="image not available"
+      /></div>
+      <div class="box">
+      <h1>25 HTML Projects for Beginners
+      </h1><p>25 complete, step-by-step HTML & CSS
+      projects to help you build a coding portfolio, including:</p>
+      <b><ul>
+        <li>Create a Landing Page</li>
+        <li>Build a Contact Form</li></ul>
+        <ul>
+        <li>Build a Profile Card</li>
+        <li>And More!</li>
+      </ul></b>
+    </div>
+      <span    class="capsule">Download Here!</span>
+      <span><a href="https://offers.hubspot.com/html-css-for-beginners?hubs_post-cta=&hubs_signup-url=blog.hubspot.com/website/html-projects-for-beginners&hubs_signup-cta=-learn-more-text&hubs_post=blog.hubspot.com/website/html-projects-for-beginners&_gl=1*sacpup*_gcl_au*MTYzNjgyMzk1MS4xNzQ3MzI3OTA2*FPAU*MTYzNjgyMzk1MS4xNzQ3MzI3OTA2*_ga*MTQ0OTc4NzAyMy4xNzQ3MzI3OTA3*_ga_LXTM6CQ0XK*czE3NDczMjc5MDYkbzEkZzEkdDE3NDczMjg4MzgkajU2JGwwJGgw*_fplc*JTJCek8lMkZuNnp0TlRVUGdVT2JtTEU0S2hqVjZSa0lJM2tiS1ZUY3lNQ3U0STdJTms0MkJ1SE43Nnk4MFBvb2hUWEk1NkFiUDhYdSUyQkFjeFgwa295MmQ0c1NoZFgzWnlWWkltQnQ4Qk9iREd4UFJFeiUyRjhyYlpnQUdJQjVvMmphVnclM0QlM0Q.&_ga=2.166851190.995668463.1747327907-1449787023.1747327907">Learn More</a>
+      </span></div>
+    </div>
+  </body>
+</html>
